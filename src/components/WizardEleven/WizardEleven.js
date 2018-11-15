@@ -62,7 +62,7 @@ class WizardEleven extends Component {
                         <div className="overarching-div">
                             <div className="form">Have you already found your new home?:
                                 <p className="p2">
-                                    {String(this.props.found)}   
+                                    {this.props.found}   
                                 </p>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ class WizardEleven extends Component {
                         <div className="overarching-div">
                             <div className="form">Current Address:
                                 <p className="p2">
-                                    {this.props.addressOne} {this.props.addressTwo} {this.props.addressThree}    
+                                    {this.props.addressOne} <br /> {this.props.addressTwo} <br /> {this.props.addressThree}    
                                 </p>
                             </div>
                         </div>

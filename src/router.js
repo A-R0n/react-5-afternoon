@@ -22,7 +22,7 @@ export default (
                 <Route component={NextBtn} exact path= '/'/>
                 <Route component={WizardOne} path='/wOne'/>
                 <Route component={WizardTwo} path='/wTwo'/>
-                <Route component={WizardThree} path='./wThree'/>
+                <Route component={WizardThree} path='/wThree'/>
                 <Route component={WizardFour} path='/wFour'/>
                 <Route component={WizardFive} path='/wFive'/>
                 <Route component={WizardSix} path='/wSix'/>

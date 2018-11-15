@@ -22,7 +22,7 @@ class WizardTwo extends Component {
 }
 //we are connecting the function onto the props object so that we can invoke it as an event handler
 // write exactly what you are bringing from state instead of returning all of state.
-// i fyou are not expliit you don't know if you are getting the value from the reducer or a parent component
+// if you are not explicit you don't know if you are getting the value from the reducer or a parent component
 // writing is as following versus (state) => state.
 function mapStateToProps(state) {
     const {city} = state;
